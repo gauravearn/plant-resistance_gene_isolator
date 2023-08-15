@@ -11,7 +11,7 @@ please install the conda environment
 conda create -n resistancegene -y && conda install -n resistancegene canu -y
 conda install -n resistancegene -c bioconda flye
 conda install -n resistancegene -c bioconda orthofinder
-enter your directory containing the files for the pacbio reads:/Users/gauravsablok/Desktop/test
+enter your directory containing the files for the pacbio reads:/Users/gauravsablok/Desktop/test_datasets
 choose your assembler for the long reads:canu
 do you want to perform the comparative minning approach:yes
 enter your genome size:4000
@@ -39,7 +39,7 @@ please install the conda environment
 conda create -n resistancegene -y && conda install -n resistancegene canu -y
 conda install -n resistancegene -c bioconda flye
 conda install -n resistancegene -c bioconda orthofinder
-enter your directory containing the files for the pacbio reads:/Users/gauravsablok/Desktop/test
+enter your directory containing the files for the pacbio reads:/Users/gauravsablok/Desktop/test_datasets
 choose your assembler for the long reads:flye
 do you want to perform the comparative minning approach:yes
 enter your genome size:4000
