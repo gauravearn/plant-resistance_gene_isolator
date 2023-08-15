@@ -29,6 +29,7 @@ wget https://github.com/sablokgaurav/plant_long_read_resistance_gene_isolator/bl
 orthofinder -t 4 -a 60 -M dendroblast -S diamond  -M msa -A mafft -T
              fasttree -p ./ -f resistance_comprative_genome_mining
 ```
+```
 # if flye genome assembler and comparative genomes
  $ sh resistance_gene_assemble.sh
 I am the complete plant NLR resistance gene miner and i do the assembly of the long reads
@@ -53,8 +54,7 @@ cd resistance_comparative_genome_mining
 wget https://github.com/sablokgaurav/plant_long_read_resistance_gene_isolator/blob/main/PlantNLR_CDS.fasta
 orthofinder -t 4 -a 60 -M dendroblast -S diamond  -M msa -A mafft -T
         fasttree -p ./ -f resistance_comprative_genome_mining
-
-
+```
 Gaurav Sablok \
 Frontiers: https://loop.frontiersin.org/people/33293/overview \
 ORCID: https://orcid.org/0000-0002-4157-9405 \
